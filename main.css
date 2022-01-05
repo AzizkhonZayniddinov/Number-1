@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Teko:wght@300;600&display=swap');
+
+body{
+    background: #c4f0e3;
+    text-align: center; 
+    font-family: 'Luxurious Roman', cursive;
+}
+
+img{
+    border: #333 solid 5px;
+    border-radius: 25px ;
+    width: 250px;   
+    height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.head{
+    display: flex;
+    border-bottom: solid black 2px;
+    padding-bottom: 30px;
+
+}
+.about{
+    display: inline-block;
+    border: solid 0px;
+    border-radius: 15px;
+    background-color: #f0f181;
+    padding: 15px 10px;
+    margin-left: 30px;
+    
+}
+
+.hobby{
+    border:solid 0px ;
+    display: block;
+    background-color: #ac8ffd;
+    border-radius: 15px;
+    max-width: 60%;
+    margin-left: 170px;
+    margin-bottom: 30px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.line {
+    border-bottom: solid black 2px;
+}
+
+a{
+    text-decoration: none;
+    color:  #0044ff;
+}
+
+a:hover{
+    color: black; 
+}
+
+a:visited{
+    color: grey;
+}
+
+.social{
+    border: solid 0px;
+    max-width: 60%;
+    margin-left: 170px;
+    margin-bottom: 30px;
+    background-color: #fa91fa;  
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 20px;
+}
